@@ -1,0 +1,53 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image:url("file:///C:/Users/123/Desktop/assignments%20week%202/images/house%202.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+  
+  .box {
+    background-color: rgb(225, 236, 236);
+    width: 45%;
+  }
+ 
+  #main {
+    height: 350px;
+    background-color: rgb(241, 241, 241);
+    width: 45%;
+    display: block;
+  }
+  #image > img {
+    width: 45%;
+    height: 300px;
+  }
+  
+  #text {
+    height: 250px;
+    background-color: rgb(241, 241, 241);
+    width: 45%;
+    display: block;
+  }
+ 
+  .buy-btn {
+    background-color: #003ce5;
+    color: #f9f9f9;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 300px;
+    border: none;
+    transition: all 200ms;
+    font-size: 13px;
+  }
+  .buy-btn:hover {
+    background-color: #f9f9f9;
+    color: #003ce5;
+    outline: 1px solid #003ce5;
+  }
+  .buy-btn:active {
+    background-color: #003ce5;
+    color: #f9f9f9;
+  }
